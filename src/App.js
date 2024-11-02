@@ -15,6 +15,10 @@ function App() {
         {
             navigate(`/user/${user?.uniqueId}`)
         }
+        else
+        {
+            navigate("/login");
+        }
     },[])
     return (
         <div>

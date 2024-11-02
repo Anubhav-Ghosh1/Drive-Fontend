@@ -28,7 +28,7 @@ function Login() {
     };
 
     return (
-        <div className="flex h-screen  justify-center items-center">
+        <div className="flex h-screen p-10 md:p-0 justify-center items-center">
             <div className="p-10 rounded-xl border-2 border-[#111111bf] bg-white shadow-lg animate-fade-in">
                 <div className="flex flex-col justify-center items-center">
                     <p className="text-3xl font-semibold">Welcome Back</p>
